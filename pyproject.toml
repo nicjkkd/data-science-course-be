@@ -1,0 +1,41 @@
+[project]
+name = "data-analysis-backend"
+version = "0.1.0"
+description = "FastAPI + ML backend for the three data-analysis course projects"
+authors = [
+    { name = "Mykola Lukianov bc2024-1", email = "kolya.lukianov.2018@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=1.15.0",
+    "fastapi>=0.146.0",
+    "httpx>=0.28.1",
+    "joblib>=1.6.0",
+    "lightgbm>=4.7.0",
+    "numpy>=2.5.4",
+    "pandas>=3.0.6",
+    "pyarrow>=26.0.0",
+    "pydantic>=2.14.1",
+    "pydantic-settings>=2.16.0",
+    "python-dateutil>=2.9.0.post0",
+    "scikit-learn>=1.9.1",
+    "shap>=0.54.1",
+    "ucimlrepo>=0.0.7",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.1",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "N", "SIM", "RUF"]
+ignore = ["RUF001", "RUF002", "RUF003"]  # Cyrillic in strings

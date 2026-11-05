@@ -1,0 +1,246 @@
+{
+  "model_version": "air-alerts@2026-10-19",
+  "git_sha": "bae2943",
+  "features": [
+    "hour",
+    "dow",
+    "month",
+    "region",
+    "cnt_6h",
+    "cnt_24h",
+    "cnt_72h",
+    "hours_since_last",
+    "nat_cnt_6h",
+    "rate_28d",
+    "active_now"
+  ],
+  "categories": {
+    "region": [
+      "zakarpattia",
+      "lviv",
+      "volyn",
+      "ivano_frankivsk",
+      "ternopil",
+      "chernivtsi",
+      "rivne",
+      "khmelnytskyi",
+      "zhytomyr",
+      "vinnytsia",
+      "kyiv",
+      "kyiv_city",
+      "chernihiv",
+      "cherkasy",
+      "kirovohrad",
+      "odesa",
+      "mykolaiv",
+      "poltava",
+      "sumy",
+      "kharkiv",
+      "dnipro",
+      "kherson",
+      "zaporizhzhia",
+      "donetsk"
+    ]
+  },
+  "history_end": "2026-10-19T06:00:00+03:00",
+  "region_typicals": {
+    "cherkasy": {
+      "cnt_6h": 1.0,
+      "cnt_24h": 4.0,
+      "cnt_72h": 11.0,
+      "hours_since_last": 4.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 0.0
+    },
+    "chernihiv": {
+      "cnt_6h": 2.0,
+      "cnt_24h": 6.0,
+      "cnt_72h": 19.0,
+      "hours_since_last": 3.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 0.0
+    },
+    "chernivtsi": {
+      "cnt_6h": 0.0,
+      "cnt_24h": 0.0,
+      "cnt_72h": 1.0,
+      "hours_since_last": 43.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 0.0
+    },
+    "dnipro": {
+      "cnt_6h": 5.0,
+      "cnt_24h": 19.0,
+      "cnt_72h": 59.0,
+      "hours_since_last": 1.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 1.0
+    },
+    "donetsk": {
+      "cnt_6h": 1.0,
+      "cnt_24h": 4.0,
+      "cnt_72h": 11.0,
+      "hours_since_last": 4.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 0.0
+    },
+    "ivano_frankivsk": {
+      "cnt_6h": 0.0,
+      "cnt_24h": 0.0,
+      "cnt_72h": 0.0,
+      "hours_since_last": 98.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 0.0
+    },
+    "kharkiv": {
+      "cnt_6h": 4.0,
+      "cnt_24h": 17.0,
+      "cnt_72h": 52.0,
+      "hours_since_last": 1.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 1.0
+    },
+    "kherson": {
+      "cnt_6h": 1.0,
+      "cnt_24h": 5.0,
+      "cnt_72h": 17.0,
+      "hours_since_last": 3.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 0.0
+    },
+    "khmelnytskyi": {
+      "cnt_6h": 0.0,
+      "cnt_24h": 1.0,
+      "cnt_72h": 2.0,
+      "hours_since_last": 20.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 0.0
+    },
+    "kirovohrad": {
+      "cnt_6h": 1.0,
+      "cnt_24h": 6.0,
+      "cnt_72h": 18.0,
+      "hours_since_last": 3.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 0.0
+    },
+    "kyiv": {
+      "cnt_6h": 2.0,
+      "cnt_24h": 9.0,
+      "cnt_72h": 26.0,
+      "hours_since_last": 2.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 0.0
+    },
+    "kyiv_city": {
+      "cnt_6h": 1.0,
+      "cnt_24h": 4.0,
+      "cnt_72h": 11.0,
+      "hours_since_last": 4.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 0.0
+    },
+    "lviv": {
+      "cnt_6h": 1.0,
+      "cnt_24h": 4.0,
+      "cnt_72h": 12.0,
+      "hours_since_last": 4.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 0.0
+    },
+    "mykolaiv": {
+      "cnt_6h": 3.0,
+      "cnt_24h": 12.0,
+      "cnt_72h": 35.0,
+      "hours_since_last": 2.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 1.0
+    },
+    "odesa": {
+      "cnt_6h": 2.0,
+      "cnt_24h": 9.0,
+      "cnt_72h": 28.0,
+      "hours_since_last": 2.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 0.0
+    },
+    "poltava": {
+      "cnt_6h": 2.0,
+      "cnt_24h": 7.0,
+      "cnt_72h": 20.0,
+      "hours_since_last": 3.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 0.0
+    },
+    "rivne": {
+      "cnt_6h": 0.0,
+      "cnt_24h": 1.0,
+      "cnt_72h": 4.0,
+      "hours_since_last": 14.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 0.0
+    },
+    "sumy": {
+      "cnt_6h": 2.0,
+      "cnt_24h": 8.0,
+      "cnt_72h": 25.0,
+      "hours_since_last": 2.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 0.0
+    },
+    "ternopil": {
+      "cnt_6h": 0.0,
+      "cnt_24h": 0.0,
+      "cnt_72h": 1.0,
+      "hours_since_last": 69.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 0.0
+    },
+    "vinnytsia": {
+      "cnt_6h": 0.0,
+      "cnt_24h": 2.0,
+      "cnt_72h": 6.0,
+      "hours_since_last": 8.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 0.0
+    },
+    "volyn": {
+      "cnt_6h": 1.0,
+      "cnt_24h": 4.0,
+      "cnt_72h": 12.0,
+      "hours_since_last": 4.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 0.0
+    },
+    "zakarpattia": {
+      "cnt_6h": 0.0,
+      "cnt_24h": 0.0,
+      "cnt_72h": 0.0,
+      "hours_since_last": 720.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 0.0
+    },
+    "zaporizhzhia": {
+      "cnt_6h": 1.0,
+      "cnt_24h": 6.0,
+      "cnt_72h": 17.0,
+      "hours_since_last": 3.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 0.0
+    },
+    "zhytomyr": {
+      "cnt_6h": 1.0,
+      "cnt_24h": 4.0,
+      "cnt_72h": 10.0,
+      "hours_since_last": 6.0,
+      "nat_cnt_6h": 34.0,
+      "active_now": 0.0
+    }
+  },
+  "permanent": [
+    "crimea",
+    "luhansk",
+    "sevastopol"
+  ],
+  "duration_mae_min": 20.1
+}
